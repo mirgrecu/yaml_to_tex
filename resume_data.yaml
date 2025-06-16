@@ -1,0 +1,136 @@
+personal:
+  name: Mircea Grecu
+  title: Geospatial Data Scientist
+  email: some.address@gmail.com
+  phone: (123) 456-7890
+  github: github.com/mirgrecu
+  linkedin: linkedin.com/in/mircea-grecu-2a588750/
+  address:
+    street: 123 Example St
+    city: Some.City
+    state: MD
+    zip: 12345
+
+summary:
+  AI/ML Research Scientist with 20+ years of experience designing and implementing scalable, uncertainty-aware machine learning and physically informed algorithms for remote sensing and environmental systems. Proven track record in algorithm design, deep learning, synthetic data generation, and decision science. Skilled in deploying AI models in operational settings. Experienced in Python, PyTorch, TensorFlow, C, Fortran, and optimal estimation techniques. 
+
+education:
+  - school_name: University of Iowa
+    degree: PhD in Civil Engineering
+    location: Iowa City, IA
+    graduation_date: July 1999
+    dissertation: Use of radar data in short term quantitative precipitation forecasting.
+
+  - school_name: Technical Institute of Civil Engineering
+    degree: MSc in Mechanical Engineering
+    location: Bucharest, Romania
+    graduation_date: June 1993
+  
+work_experience:
+  - title: Senior Research Scientist
+    company: Morgan State University
+    location: Baltimore, MD, 21251
+    start_date: May 2011
+    end_date: Present
+    responsibilities:
+      - Directed the development of the NASA GPM Combined Radar-Radiometer Algorithm (CORRA), a physics-based and deep-learning-enhanced retrieval system operationally deployed to provide global precipitation estimates under uncertainty.
+      - Formulated and implemented machine learning methodologies to address challenges in radar signal processing, including ground clutter mitigation, attenuation correction, and non-uniform beam flling—improving detection of light precipitation and reducing biases by 50 \%.
+      - Applied optimal estimation theory and probabilistic modeling to integrate radar, radiometer, and lidar observations in a physically consistent framework, enabling robust estimates in ill-posed and noisy observational scenarios.
+      - Pioneered a non-parametric method to estimate ice particle size distributions from multi-frequency radar observations employing a large empirical database and statistical search techniques.
+      - Led the design and execution of cloud-resolving WRF simulations to support satellite algorithm development, enabling the enhancement of physical models with ML.
+
+  - title: Assistant Research Scientist
+    company: University of Maryland, Baltimore County
+    location: Baltimore, MD, 21250
+    start_date: June 2002
+    end_date: May 2011
+    responsibilities:
+      - Formulated and implemented a Markov Chain Monte Carlo (MCMC) framework featuring importance sampling—conceptually similar to Proximal Policy Optimization—to simulate satellite observations and quantify their sensitivity to environmental parameters.
+      - Used retrieval outputs to train ML radiometer-only algorithms for precipitation and latent heating estimation, reducing dependency on radar data while preserving accuracy.
+      - Generated satellite-based water and energy budget datasets used to evaluate climate model simulations and support weather forecasting applications.
+
+  - title: Visiting Scientist
+    company: University of Connecticut
+    location: Storrs, CT 06269
+    start_date: October 1999 - June 2002
+    responsibilities:
+      - Designed a methodology to estimate precipitation from X-band polarimetric radar observations.
+      - Prototyped a variational retrieval algorithm for the TRMM combined radar–radiometer observations, integrating physical models and statistical optimization.
+
+skills:
+  - category: Core Competencies
+    details:
+      - Statistical Computing 
+      - MCMC 
+      - Variational Methods 
+      - Linear Algebra
+      - Exploratory Data Analysis
+      - Kalman Filtering
+      - High Performance Computing
+
+  - category: Machine Learning \& Deep Learning
+    details:
+      - Neural Networks 
+      - CNNs 
+      - GANs 
+      - U-Nets 
+      - LSTMs
+
+  - category: Uncertainty Quantification
+    details:
+      - Bayesian inference 
+      - Optimal Estimation 
+      - Probabilistic Modeling
+
+  - category: Geospatial libraries
+    details:
+      - GDAL 
+      - rasterio 
+      - pyresample
+      - cartopy
+
+  - category: Remote Sensing
+    details:
+      - Satellite \& Radar Retrievals 
+      - Synthetic Data 
+      - Environmental Modeling
+
+  - category: Technical Tools
+    details:
+      - PyTorch 
+      - Python 
+      - Scikit-Learn 
+      - Pandas 
+      - Tensorfow 
+      - Fortran 
+      - C 
+      - Matlab
+
+  - category: Research to Deployment
+    details:
+      - Operational Systems 
+      - NASA Missions 
+      - Proposal Development 
+      - Technical Leadership
+
+projects:
+  - title: NASA GPM Mission
+    date: 2014-2025
+    details:
+      - Main developer of the GPM CORRA algorithm
+    
+  - title: NASA AOS Mission
+    date: 2020-2025
+    details:
+      - Member of the Science Impact Team (SIT) and the Algorithm Working Group (AWG).
+
+  - title: NASA TRMM Mission
+    date: 2002-2014
+    details:
+      - Algorithm developer for the TRMM experimental combined radar-radiometer precipitation retrieval algorithm.
+
+  - title: NASA Research Opportunities in Space and Earth Science (ROSES) Program
+    date: 2000-2025
+    details:
+      - Principal Investigator for Remote Sensing Theory (RST) projects on advanced radiative transfer and multi-instrument retrievals.
+  
