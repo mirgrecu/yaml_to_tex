@@ -1,0 +1,123 @@
+personal:
+  name: Mircea Grecu
+  title: Research Scientist
+  email: mirgrecu@gmail.com
+  phone: ***-***-*****
+  github: github.com/mirgrecu
+  linkedin: linkedin.com/in/mircea-grecu-2a588750/
+  orcid: https_2p_//orcid.org/0000-0001-8600-1781
+  address:
+    street: **** ****** *** ***
+    city: *******
+    state: MD
+    zip: *****
+    
+summary:
+  AI/ML Research Scientist with 20+ years of experience designing scalable, uncertainty-aware machine learning and physically informed algorithms for satellite remote sensing and weather-focused Earth system science. Proven leadership in supporting NASA satellite missions, developing deep learning retrievals, generating synthetic observations, and integrating multi-instrument datasets. Skilled in operational algorithm deployment, data assimilation, and end-to-end mission algorithm design.
+
+education:
+  - school_name: University of Iowa
+    degree: PhD in Civil Engineering
+    location: Iowa City, IA
+    graduation_date: July 1999
+    dissertation: Use of radar data in short term quantitative precipitation forecasting.
+
+  - school_name: Technical Institute of Civil Engineering
+    degree: MSc in Mechanical Engineering
+    location: Bucharest, Romania
+    graduation_date: June 1993
+
+work_experience:
+  - title: Senior Research Scientist
+    company: Morgan State University
+    location: Baltimore, MD, 21251
+    start_date: May 2011
+    end_date: Present
+    responsibilities:
+      - Led the development and operational deployment of the NASA GPM Combined Radar-Radiometer Algorithm (CORRA), used globally to retrieve precipitation and hydrometeor profiles with uncertainty estimates.
+      - Developed machine learning and physics-informed models for radar signal processing—improving clutter mitigation and retrieval accuracy in challenging observational regimes.
+      - Applied Bayesian optimal estimation and probabilistic data fusion to synergize multi-sensor observations (radar, radiometer, lidar) in support of global water and energy budget studies.
+      - Designed Observing System Simulation Experiments (OSSEs) using WRF cloud-resolving models to evaluate and train retrieval algorithms for upcoming missions such as NASA AOS.
+      - Contributed to open-source and operational codebases, supporting algorithm transitions from research to real-time applications.
+
+  - title: Assistant Research Scientist
+    company: University of Maryland, Baltimore County
+    location: Baltimore, MD, 21250
+    start_date: June 2002
+    end_date: May 2011
+    responsibilities:
+      - Developed physically consistent and uncertainty-aware satellite retrieval algorithms using Markov Chain Monte Carlo and importance sampling approaches.
+      - Created machine learning precipitation retrievals trained on CORRA outputs to extend algorithm applicability to radiometer-only sensors.
+      - Produced long-term datasets used to constrain climate model outputs and assess energy/water cycle trends.
+
+  - title: Visiting Scientist
+    company: University of Connecticut
+    location: Storrs, CT 06269
+    start_date: October 1999
+    end_date: June 2002
+    responsibilities:
+      - Designed retrieval methods for X-band polarimetric radar, supporting fine-scale precipitation estimation.
+      - Developed early variational algorithms for the TRMM combined product, integrating radar and radiometer signals in a unified forward modeling framework.
+
+skills:
+  - category: Earth System Science \& Remote Sensing
+    details:
+      - Satellite Retrieval Algorithms
+      - Cloud-Resolving Modeling
+      - Data Assimilation Frameworks
+      - Radiative Transfer Modeling
+      - Multisensor Fusion (Radar, Radiometer, Lidar)
+
+  - category: AI/ML \& Uncertainty Quantification
+    details:
+      - Deep Learning (CNNs, U-Nets, LSTMs)
+      - Probabilistic Modeling
+      - Bayesian Inference \& MCMC
+      - Synthetic Data Generation
+      - Optimal Estimation Theory
+  
+  - category: Technical Tools
+    details:
+      - PyTorch 
+      - Python 
+      - Scikit-Learn 
+      - Pandas 
+      - Tensorfow 
+      - Fortran 
+      - C 
+
+
+projects:
+  - title: NASA AOS Mission
+    date: 2020–2025
+    details:
+      - Member of Science Impact Team (SIT) and Algorithm Working Group (AWG); contributing retrieval models and synthetic scene generation for pre-launch evaluation.
+
+  - title: NASA GPM Mission
+    date: 2014–2025
+    details:
+      - Principal developer of CORRA algorithm used for global precipitation and ice/liquid hydrometeor profile retrieval under uncertainty.
+
+  - title: NASA TRMM Mission
+    date: 2002–2014
+    details:
+      - Developed retrieval algorithms integrating radar and radiometer observations, laying the foundation for GPM CORRA.
+
+  - title: NASA ROSES Program
+    date: 2008–2025
+    details:
+      - PI for multiple funded projects under Remote Sensing Theory and Precipitation Measurement Mission, with focus on multi-sensor retrievals and radiative transfer innovations.
+
+publications:
+  - title: Grecu, M., G. M. Heymsfield, S. D. Nicholls, S. E. Lang, and W. S. Olson, 2024_2p_ A Machine-Learning Approach to Mitigate Ground Clutter in the GPM Combined Radar-Radiometer Precipitation Estimates, J. Ocean. Atmos. Tech., https_2p_//doi.org/10.1175/JTECH-D-24-0048.1, 42(1), 17-31.
+  - title: Grecu, M., and J. E. Yorks, 2024_2p_ Synergistic Retrievals of Ice in High Clouds from Elastic Backscatter Lidar, Ku-Band Radar, and Submillimeter Wave Radiometer Observations. J. Atmos. Oceanic Technol., 41, 79-93, https_2p_//doi.org/10.1175/JTECH-D-23-0028.1. 
+  - title: Boisvert, L., Grecu, M. and Shie, C.L., 2021_2p_ Investigating Wintertime GPM-IMERG Precipitation in the North Atlantic. Geophysical Research Letters, 48(20), p.e2021GL095391. 
+  - title: Bringi, V.N., M. Grecu, A. Protat, M. Thurai, and C. Klepp, 2021_2p_ Measurements of Rainfall Rate, Drop Size Distribution, and Variability at Mid- and Higher Latitudes Application to the Combined DPR-GMI Algorithm, Remote Sens., 13.12.
+  - title: Grecu, M. and Olson, W.S., 2020_2p_ Precipitation retrievals from satellite combined radar and radiometer observations. In Satellite Precipitation Measurement (pp. 231-248). Springer, Cham. Grecu, M. and Bolvin, D.T., 2018. The Tropical Rainfall Measuring Mission. In Remote Sensing of Clouds and Precipitation (pp. 155-174). Springer, Cham.  
+  - title: Grecu, M., L. Tian, G. M. Heymsfield, A. Tokay, W. S. Olson, A. J. Heymsfield, and A. Bansemer, 2018_2p_ Nonparametric Methodology to Estimate Precipitating Ice from Multiple-Frequency Radar Reflectivity Observations.J. Appl. Meteor. Climatol., 57, 2605-2622, https_2p_//doi.org/10.1175/JAMC-D-18-0036.1. 
+  - title: Grecu, M., W. S. Olson, S. J. Munchak, S. Ringerud, L. Liao, Z. Haddad, B. L. Kelley, and S. F. McLaughling, 2016_2p_ The GPM combined algorithm. J. Atmos. Ocean. Technol., 33, 2225-2245.  
+  - title: Olson, W. S., L. Tian, M. Grecu, K.-S. Kuo, B. T. Johnson, A. J. Heymsfield, A. Bansemer, G. M. Heymsfield, R Meneghini, 2016_2p_ The Microwave Radiative Properties of Falling Snow Derived from Nonspherical Ice Particle Models. Part II. Initial Testing Using Radar, Radiometer and In Situ Observations. J. Appl. Meteorol. Clim., 55, 709-722, doi_2p_10.1175/JAMC-D-15-0131.1. 
+  - title: Grecu, M., Tian, L., Olson, W.S. and Tanelli, S., 2011_2p_ A robust dual-frequency radar profiling algorithm. Journal of applied meteorology and climatology, 50(7), pp.1543-1557. 
+  - title: Grecu, M. and Krajewski, W.F., 2000_2p_ A large-sample investigation of statistical procedures for radar-based short-term quantitative precipitation forecasting. Journal of hydrology, 239(1-4), pp.69-84. 
+  - title: Grecu, M. and Krajewski, W.F., 2000_2p_ An efficient methodology for detection of anomalous propagation echoes in radar reflectivity data using neural networks. Journal of atmospheric and oceanic technology, 17(2), pp.121-129.
+

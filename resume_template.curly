@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper]left_curlyarticleright_curly
+\usepackage[margin=0.75in]left_curlygeometryright_curly
+\usepackageleft_curlyhyperrefright_curly
+\usepackageleft_curlyfontawesomeright_curly
+\usepackageleft_curlytitlesecright_curly
+\usepackageleft_curlyenumitemright_curly
+\usepackageleft_curlyxcolorright_curly
+\usepackageleft_curlyorcidlinkright_curly
+
+% Define colors
+\definecolorleft_curlyprimaryright_curlyleft_curlyRGBright_curlyleft_curly70,130,180right_curly
+
+% Format section headings
+\titleformatleft_curly\sectionright_curly
+left_curly\normalfont\Large\bfseries\colorleft_curlyprimaryright_curlyright_curly
+left_curlyright_curlyleft_curly0emright_curlyleft_curlyright_curly[\titlerule]
+
+\setlist[itemize]left_curlyitemsep=-0pt, parsep=0ptright_curly
+
+\beginleft_curlydocumentright_curly
+
+%%\noindent
+%%\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+%%\faEnvelope\ {{ personal.email }} & \faMapMarker\ {{ personal.address.street }} \\
+%%\faLinkedin\ {{ personal.linkedin }} & {{ personal.address.city }}, {{ personal.address.state }}, {{ personal.address.zip }} \\
+%%\faGithub\ {{ personal.github }} & \faPhone\ {{ personal.phone }}\\
+%%
+%%\end{tabular*}
+
+\noindent
+left_curly\LARGE \textbfleft_curly{{ personal.name }}right_curlyright_curly\\
+left_curly\largeleft_curly{{ personal.title }}right_curlyright_curly\\
+
+\noindent
+\beginleft_curlytabular*right_curlyleft_curly\textwidthright_curlyleft_curly@left_curlyright_curlyl@left_curly\extracolsepleft_curly\fillright_curlyright_curlyr@left_curlyright_curlyright_curly
+\faEnvelope\ {{ personal.email }} & \faMapMarker\ {{ personal.address.street }}  \\
+\faLinkedin\ {{ personal.linkedin }} & {{ personal.address.city }}, {{ personal.address.state }}, {{ personal.address.zip }} \\
+\faGithub\ {{ personal.github }} & \faPhone\ {{ personal.phone }}\\
+\orcidlinkleft_curly{{ personal.orcid }}right_curly
+{{personal.orcid}}
+\endleft_curlytabular*right_curly
+
+\section*left_curlySummaryright_curly
+{{ summary }}
+
+\section*left_curlyEducationright_curly
+{% for school in education %}
+\noindent
+\textbfleft_curly{{ school.school_name}}right_curly \hfill {{ school.location }}\\
+\textbfleft_curlyDegree:right_curly {{ school.degree }} \hfill {{ school.graduation_date }}\\
+{% if school.dissertation %} \textbfleft_curlyDissertation:right_curly  {{ school.dissertation}}\\ {% endif %}
+{% endfor %}
+
+\section*left_curlyWork Experienceright_curly
+%%\textbfleft_curlyJob Titleright_curly \hfill Start Date -- End Date\\
+%%\textitleft_curlyCompany Nameright_curly \hfill City, State 
+%%\\[-17pt]
+%%\beginleft_curlyitemizeright_curly[leftmargin=*]
+%%\item Achievement or responsibility description
+%%\item Another achievement or responsibility
+%%\endleft_curlyitemizeright_curly
+{% for job in work_experience %}
+\noindent
+\textbfleft_curly{{ job.title }}right_curly \hfill {{ job.start_date }} -- {{ job.end_date }}\\
+\textitleft_curly{{ job.company }}right_curly \hfill {{ job.location }}\\[-17pt]
+\begin{itemize}[leftmargin=*]
+{% for item in job.responsibilities %}
+\item {{ item }}
+{% endfor %}
+\endleft_curlyitemizeright_curly
+{% endfor %}
+
+
+\section*left_curlySkillsright_curly
+\begin{itemize}[leftmargin=*]
+{% for skill_cat in skills %}
+%%\noindent 
+\item \textbfleft_curly{{ skill_cat.category }}: right_curly {%- for skill in skill_cat.details -%} {{ skill }}{% if not loop.last %}, {% endif %}{%- endfor -%}
+\\[-10pt]
+{% endfor %}
+\endleft_curlyitemizeright_curly
+
+
+\section*left_curlyProjectsright_curly
+{% for project in projects %}
+\noindent
+\textbfleft_curly{{ project.title }}right_curly \hfill {{ project.date }}\\[-15pt]
+\begin{itemize}[leftmargin=*]
+{% for item in project.details %}
+\item {{ item }}
+{% endfor %}
+\endleft_curlyitemizeright_curly
+{% endfor %}
+
+\section*left_curlySelected Publicationsright_curly
+{% for pub in publications %}
+\noindent
+{{ pub.title }}\\[-5pt]
+{% endfor %}
+\endleft_curlydocumentright_curly
